@@ -201,7 +201,7 @@ export function createTray(win, eventEmitter) {
   let iconTheme = nativeTheme.shouldUseDarkColors ? 'light' : 'dark';
 
   let icon = nativeImage
-    .createFromPath(path.join(__static, `img/icons/menu-${iconTheme}@88.png`))
+    .createFromPath(path.join(__static, `img/icons/64x64.png`))
     .resize({
       height: 20,
       width: 20,
